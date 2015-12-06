@@ -1,6 +1,6 @@
 import cx_Freeze
 
-executables = [cx_Freeze.Executable("86.py")]
+executables = [cx_Freeze.Executable("Watch.pyw", base = "Win32GUI")]
 
 cx_Freeze.setup(
 	name="Watch",
